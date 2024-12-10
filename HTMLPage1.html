@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay-E G. Tactacon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0b0b0b;
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 60px;
+            background-color: rgba(11, 11, 11, 0.9);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+            header .logo {
+                position: absolute;
+                left: 20px;
+                display: flex;
+                align-items: center;
+            }
+
+                header .logo img {
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+
+            nav ul li {
+                margin: 0 20px;
+            }
+
+                nav ul li a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 16px;
+                }
+
+                    nav ul li a:hover {
+                        background-color: #ff4c4c;
+                        color: #ffffff;
+                    }
+
+        .hero {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #0b0b0b;
+        }
+
+        .profile {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0 0 30px #ff4c4c;
+        }
+
+            .profile img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        .hero h1 {
+            margin-top: 20px;
+            font-size: 2.5rem;
+            color: #ff4c4c;
+            text-align: center;
+        }
+
+        .hero p {
+            margin-top: 10px;
+            font-size: 1rem;
+            text-align: center;
+            max-width: 600px;
+        }
+
+        .changing-text {
+            margin-top: 20px;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #ff4c4c;
+            text-transform: uppercase;
+        }
+
+        .skills-section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+            .skills-section h2 {
+                font-size: 2rem;
+                color: #ff4c4c;
+                margin-bottom: 20px;
+            }
+
+        .skill {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            max-width: 500px;
+        }
+
+            .skill h3 {
+                font-size: 1.5rem;
+                color: #ff4c4c;
+                margin-bottom: 10px;
+            }
+
+            .skill p {
+                font-size: 1rem;
+                color: #ffffff;
+            }
+
+            .skill img {
+                width: 100%;
+                height: 200px; 
+                object-fit: cover;
+                border-radius: 10px;
+                margin-top: 15px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            }
+
+        .video-section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+            .video-section video {
+                width: 80%;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            }
+
+        footer {
+            background-color: rgba(11, 11, 11, 0.9);
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 20px;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .footer-icons {
+            margin-top: 10px;
+        }
+
+            .footer-icons a {
+                text-decoration: none;
+                color: #ff4c4c;
+                margin: 0 10px;
+                font-size: 1.5rem;
+            }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="HTMLPage1.html">
+                <img src="Logo.png" alt="Jay-E's Portfolio Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="HTMLPage1.html">Home</a></li>
+                <li><a href="HTMLPage2.html">IT111 Blog Entries</a></li>
+                <li><a href="HTMLPage3.html">Flex Page</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="profile">
+            <img src="Profile_Photo.jpg" alt="Profile Picture">
+        </div>
+        <h1>I am Jay-E G. Tactacon</h1>
+        <div class="changing-text">
+            I am <span id="changing-text-content">a Son</span>
+        </div>
+        <p>I am Jay-E G. Tactacon, a BSIT 1st year student at BukSU, currently living at a boarding house in Cudal St in Malaybalay. I am the youngest of two siblings, brought to the world of the living by my two wonderful parents, Jilen G. Tactacon and Lito R. Tactacon. Through their combined efforts, they have allowed me to take education and have things they never once had. My sister Jessa G. Tactacon and I have something in common, which is that we both like reading, drawing, and watching movies. Through the education that I have received in BukSU, it has taught me basic coding, which can help me in my future endeavors.</p>
+        <a href="https://web.facebook.com/jaye.tactacon" target="_blank">
+            <img src="Facebook-Icon.jpeg" alt="Facebook" style="width: 55px; height: 55px;">
+        </a>
+    </section>
+
+    <section class="skills-section">
+        <h2>My Skills</h2>
+
+
+        <div class="skill">
+            <h3>Basic C Programming</h3>
+            <p>I have basic experience with C Programming, such as understanding the fundamentals like loops, conditionals, and iterative statements.</p>
+            <img src="Cprogram.jpeg" alt="Programming Image">
+        </div>
+
+
+        <div class="skill">
+            <h3>Leadership</h3>
+            <p>As my education journey continues, I have developed leadership skills that help me guide and inspire my team in any given task.</p>
+            <img src="servant-leadership-sito.jpg" alt="Leadership">
+        </div>
+
+
+        <div class="skill">
+            <h3>Problem Solving</h3>
+            <p>Problem-solving enables me to critically analyze issues and implement effective solutions in various situations.</p>
+            <img src="problemphoto.png" alt="Problem Solving">
+        </div>
+    </section>
+    <section class="video-section">
+        <h1>Me in 8 years to the future</h1>
+        <iframe width="560"
+                height="315"
+                src="https://www.youtube.com/embed/YecGxiBsLRo"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jay-E G. Tactacon | Email: jaytactacon963@gmail.com | Contact Info: 09557593506</p>
+        <div class="footer-icons">
+        </div>
+    </footer>
+</body>
+</html>
