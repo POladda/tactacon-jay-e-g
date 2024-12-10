@@ -1,7 +1,7 @@
 [build]
-  base = "/"
-  command = "npm run build"  # Change this if you're not using a build tool
-  publish = "dist"  # Replace with the correct folder where the final output is generated
+  base = "/"  # The directory where the build command runs from (optional)
+  command = ""  # Leave empty if you don't need a build command
+  publish = "/"  # Directory to publish; should be the root if no build
 
 [[redirects]]
   from = "/*"
