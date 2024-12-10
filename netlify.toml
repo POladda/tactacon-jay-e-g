@@ -1,4 +1,9 @@
+[build]
+  base = "/"
+  command = "npm run build"  # Change this if you're not using a build tool
+  publish = "dist"  # Replace with the correct folder where the final output is generated
+
 [[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+  from = "/*"
+  to = "/index.html"
+  status = 200
